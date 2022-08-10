@@ -1,0 +1,95 @@
+.singin {
+    background-image: url(https://khusoko.com/wp-content/uploads/2022/02/Netflix.jpg);
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.7;
+}
+
+.singin--header {
+    padding: 30px 0 0 50px;
+    display: flex;
+    align-items: center;
+}
+
+.login--logo {
+    height: 45px;
+}
+
+.login--logo img {
+    height: 100%;
+}
+
+.singin--card {
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.856);
+    border-radius: 5px;
+}
+
+.singin--form {
+    width: 70%;
+    margin: auto;
+}
+
+.singin--title {
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.singin--inputs {
+    display: block;
+}
+
+.singin--inputs .email,
+.singin--inputs .password {
+    width: 100%;
+    background-color: #444;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 19px;
+    color: #fff;
+    outline: none;
+}
+
+.singin--inputs .button {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.singin--label {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #999;
+    
+}
+
+.singin--label .link {
+    margin-left: 10px;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+
+.singin--label .link:hover {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding: 5px;
+    text-decoration: underline;
+    color: red;
+}
+

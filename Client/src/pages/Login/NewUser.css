@@ -1,0 +1,90 @@
+.newUser {
+    background-image: url(https://khusoko.com/wp-content/uploads/2022/02/Netflix.jpg);
+    background-size: cover;
+    height: 150vh;
+    opacity: 0.7;
+}
+
+.newUser--header {
+    padding: 30px 0 0 50px;
+    display: flex;
+    align-items: center;
+}
+
+.login--logo {
+    height: 45px;
+    cursor: pointer;
+}
+
+.login--logo img {
+    height: 100%;
+}
+
+.newUser--card {
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.856);
+    border-radius: 5px;
+}
+
+.newUser--form {
+    width: 70%;
+    margin: auto;
+}
+
+.newUser--title {
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.newUser--inputs {
+    display: block;
+}
+
+.newUser--inputs .email,
+.newUser--inputs .name,
+.newUser--inputs .cpf,
+.newUser--inputs .birthDate,
+.newUser--inputs .password,
+.newUser--inputs .checkPassword {
+    width: 100%;
+    background-color: #444;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 19px;
+    color: #fff;
+    outline: none;
+}
+
+.newUser--inputs .email:hover,
+.newUser--inputs .name:hover,
+.newUser--inputs .cpf:hover,
+.newUser--inputs .birthDate:hover,
+.newUser--inputs .password:hover,
+.newUser--inputs .checkPassword:hover {
+    background-color: #666;
+}
+
+.newUser--inputs .button {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.newUser--label {
+    margin-top: 15px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    color: #999;
+}
